@@ -1,4 +1,4 @@
-var countDownDate = new Date("Oct 14, 2019 15:37:25").getTime();
+var countDownDate = new Date("Oct 14, 2019 0:0:0").getTime();
 var displayDate = document.querySelector(".date-display")
 var date = new Date();
 var span = document.getElementById('span');
@@ -24,6 +24,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    span.textContent = "EXPIRED";
+    span.textContent = "TODAY IS THE DAY!!!";
   }
 }, 1000);
