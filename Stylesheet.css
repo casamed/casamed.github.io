@@ -96,7 +96,7 @@ a:hover {
 .zone {
 	display: block;
 	text-align: center;
-	font-family: 'Shrikhand', cursive;
+	font-family: 'Quicksand', sans-serif;
 	color: white;
     border-radius:4px;
     font-size: 2rem;
@@ -124,4 +124,9 @@ a:hover {
 
 #Projects{
 	justify-content: space-around;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
 }
